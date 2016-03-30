@@ -1349,7 +1349,7 @@ DesktopBackgroundScaled=1 # 0/1
 # DesktopBackgroundColor="rgb:00/20/40"
 
 #  Desktop background image
-DesktopBackgroundImage="/usr/share/wallpapers/openSUSEdefault/contents/images/1920x1080.jpg"
+DesktopBackgroundImage="/usr/share/wallpapers/SLEdefault/contents/images/1920x1080.jpg"
 
 #  Color to announce for semi-transparent windows
 # DesktopTransparencyColor=""
