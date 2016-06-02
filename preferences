@@ -554,7 +554,7 @@ IconPath="/usr/share/icons/Adwaita/16x16/apps:/usr/share/icons/hicolor/16x16/app
 # NewMailCommand=""
 
 #  Command to lock display/screensaver
-LockCommand="xscreensaver-command -lock || xlock -mousemotion"
+LockCommand="xlock -mousemotion"
 
 #  Command to run on clock
 # ClockCommand="xclock -name icewm -title Clock"
