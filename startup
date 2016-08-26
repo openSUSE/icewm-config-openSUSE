@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Start the first polkit agent that exists
+for i in /usr/lib/polkit-gnome-authentication-agent-1 \
+         /usr/lib64/libexec/polkit-kde-authentication-agent-1 \
+         /usr/lib/polkit-mate/polkit-mate-authentication-agent-1 \
+         /usr/lib64/kde4/libexec/polkit-kde-authentication-agent-1; do
+	if [ -x $i ]; then
+		$i &
+		break # One is enough
+	fi
+done;

@@ -578,10 +578,10 @@ LockCommand="xlock -mousemotion"
 # LogoutCancelCommand=""
 
 #  Command to shutdown the system
-ShutdownCommand="/bin/sh -c "systemctl poweroff ||:""
+ShutdownCommand="/bin/sh -c 'systemctl poweroff ||:'"
 
 #  Command to reboot the system
-RebootCommand="/bin/sh -c "systemctl reboot ||:""
+RebootCommand="/bin/sh -c 'systemctl reboot ||:'"
 
 #  Command to run on CPU status
 # CPUStatusCommand="xterm -name top -title Process\ Status -e top"
