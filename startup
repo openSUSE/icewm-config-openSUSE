@@ -10,3 +10,7 @@ for i in /usr/lib/polkit-gnome-authentication-agent-1 \
 		break # One is enough
 	fi
 done;
+
+# Start xscreensaver daemon
+
+[ -x /usr/bin/xscreensaver ] && /usr/bin/xscreensaver > /dev/null &
