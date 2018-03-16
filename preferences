@@ -128,7 +128,7 @@
 # CenterTransientsOnOwner=1 # 0/1
 
 #  Menus track mouse even with no mouse buttons held
-# MenuMouseTracking=0 # 0/1
+MenuMouseTracking=1 # 0/1
 
 #  Auto raise windows after delay
 # AutoRaise=0 # 0/1
