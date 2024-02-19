@@ -5,5 +5,5 @@
 # (re)install icewm.
 #
 prog xterm xterm xterm
-prog "Web browser" web-browser xdg-open about:blank
+prog "Web browser" web-browser-symbolic xdg-open about:blank
 
